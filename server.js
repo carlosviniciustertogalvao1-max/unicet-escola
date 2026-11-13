@@ -16,6 +16,9 @@ app.use('/estudantes', estudanteRoutes);
 app.use('/cursos', cursoRoutes);
 app.use('/disciplinas', disciplinaRoutes);
 app.use('/matriculas', matriculaRoutes);
+app.use('/professores', professorRoutes);
+app.use('/notas', notaRoutes);
+
 
 // Rota raiz para conferência básica
 app.get('/', (req, res) => {
